@@ -1,0 +1,18 @@
+@use "./abstracts";
+
+body {
+  background: abstracts.$bg-color;
+  font-family: abstracts.$font;
+}
+
+
+.card__wrap {
+  padding: 85px 28px;
+
+  @include abstracts.tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,59 @@
+@use '../styles/abstracts';
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  max-width: 320px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1F314F;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7D889E;
+  margin-bottom: 30px;
+}
+
+.layout {
+  padding: 15px 15px 35px 15px;
+}
+
+.code__container {
+  background: #2C7DFA;
+}
+
+.qrCode__container {
+  background: #2C7DFA;
+  border-radius: 10px;
+  padding: 64px;
+  margin-bottom: 24px;
+}
+
+.subheading {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #1F314F;
+}
+
+.input__link {
+  width: 100%;
+  border: 1px solid #7D889E;
+  height: 35px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
